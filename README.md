@@ -1,4 +1,4 @@
-This project introduces the basics of Test Driven Development and the use of PhpUnit.
+This project introduces the basics of the Test Driven Development and the use of PhpUnit.
 
 Use:
 
