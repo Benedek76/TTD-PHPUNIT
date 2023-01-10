@@ -1,0 +1,28 @@
+{
+    "name": "benedekladanyi/codurance-kata",
+    "description": "Kata challenge.",
+    "require-dev": {
+        "php": ">=8.1.10",
+        "phpunit/phpunit": "^9.5.27"
+        
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "authors": [
+        {
+            "name": "Benedek Ladányi",
+            "email": "benedekladanyi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ["app"]
+        }
+    }
+}
